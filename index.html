@@ -5,8 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .p-green{
+            color: green;
+        }
+
+        .address{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+        }
+        .description{
+            font-size: 14px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .button-grey{
+            background-color: blue;
+            color: white;
+            padding: 12px;
+            border: 1px solid red;
+            border-radius: 2px 2px 66px;
+        }
+        .button-yellow{
+            background-color: rgb(184, 230, 19);
+            color: white;
+            padding: 12px;
+            border: 1px solid red;
+            border-radius: 2px 2px 66px;
+        }
+        .button-red{
+            background-color: rgb(224, 10, 28);
+            color: white;
+            padding: 12px;
+            border: 1px solid red;
+            border-radius: 2px 2px 66px;
+        }
+        .alert-red{
+            background-color: red;
+            width: 400px;
+            padding: 8px;
+            border-radius: 4px 4px 4px 4px;
+            color: white;
+        }
+        .row-content{
+            display: flex;
+        }
+        .column{
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
-    <p>Halo dunia programming zaman now</p>
+    <!-- text biasa -->
+    <p>Nama saya adalah oscar fernando</p>
+
+    <!-- Text internal -->
+    <p class="p-green">Nama saya adalah oscar fernando</p>
+    <!-- Text Inline -->
+    <p style="color:aqua;">Nama saya adalah oscar fernando</p>
+    <!-- Text Eksternal -->
+    <p class="p-balap">Nama saya adalah oscar fernando</p>
+
+    <p class="address">Alamat saya adalah: </p>
+    <p class="description">Jalan Raya Inkopad</p>
+
+    <button class="button-grey">Submit</button>
+    <button class="button-yellow">Submit</button>
+    <button class="button-red">Submit</button>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="alert-red">
+        <p>Alert!</p>
+        <p>Username & Password wajib diisi</p>
+    </div>
+
+    <div class="row-content">
+        <div class="column">
+            <p>Column 1</p>
+        </div>
+        <div class="column">
+            <p>Column 2</p>
+        </div>
+        <div class="column">
+            <p>Column 2</p>
+        </div>
+    </div>
 </body>
 </html>
