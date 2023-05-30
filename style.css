@@ -1,0 +1,69 @@
+.p-red {
+  color: red;
+}
+.address {
+  font-weight: bold;
+  font-size: 20px;
+}
+.description-address {
+  font-size: 12px;
+  font-style: italic;
+}
+.button-grey {
+  background-color: #dadada;
+  color: black;
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+}
+.button-blue {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+}
+.button-green {
+  background-color: #28a754;
+  color: white;
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+}
+.button-red {
+  background-color: red;
+  color: white;
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+}
+.alert-red {
+  background-color: red;
+  width: 400px;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+}
+.alert-blue {
+  background-color: blue;
+  width: 400px;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+}
+.alert-yellow {
+  background-color: yellow;
+  width: 400px;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+}
+.alert-green {
+  background-color: green;
+  width: 400px;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+}
+.row-content{
+  display: flex;
+}
+.column{
+  margin-right: 10px;
+}
